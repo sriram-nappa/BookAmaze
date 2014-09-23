@@ -1,0 +1,11 @@
+{
+    "users": [{
+        "uname": "danny",
+        "password": "123",
+        "fav": "meluha"
+    }, {
+        "uname": "sriram",
+        "password": "456",
+        "fav": "best laid plans"
+    }]
+}

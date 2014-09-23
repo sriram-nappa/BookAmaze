@@ -1,0 +1,325 @@
+.clear{
+  clear:both;
+}
+.wrapper{
+  width: 100%;
+  background: url(../images/mainBG.jpg) repeat;
+  background-color: #000000;
+  position: absolute;
+}
+#mainContent{
+  min-height: 1000px;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header{
+  background-color: #000000;
+  position: fixed;
+//  opacity: 0.5;
+  z-index: 2000;
+  width: 100%;
+
+
+}
+header>a>figure,header>a>h1,header>nav>ul>li{
+  color: #FFFFFF;
+  float: left;
+  margin: 1% 0;
+}
+header>a>h1,header>a>figure{
+  margin: 1% 1% 0 1%;
+}
+header>a>h1{
+  font-size: 2em;
+  color: #ccc;
+  font-weight: bold;
+}
+header>nav>ul{
+  float: right;
+  margin: 1% ;
+}
+header>nav>ul>li>a{
+  display: inline-block;
+  margin: 0 15px;
+  padding:  5px;
+  
+  //border: 1px solid #51467F;
+}
+
+header>nav>ul>li>a:hover{
+  //background-color: #0F0;
+  //border: 1px solid #00F;
+  border-radius: 10px;
+  color: #000;  
+
+  background: #c9de96; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c9de96), color-stop(44%,#8ab66b), color-stop(100%,#398235)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* IE10+ */
+background: linear-gradient(135deg,  #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 
+}
+#pageOne{
+  margin: 9% 0;
+  min-height:600px;
+}
+#pageTwo,#pageThree,#pageFour,#login{
+  padding: 5.5% 0 0 0 ;
+  min-height:600px;
+}
+#pageTwo>span{
+  display: block;
+  min-height: 212px;
+  margin: 2% 5%;
+}
+#pageTwo span ul li{
+  float: left;
+  width: 13%;
+  margin: 0 2%;
+}
+#pageTwo span ul li:first-child,#pageTwo span ul li:last-child{
+  width: 5%;
+  margin: 0 1%;
+  padding: 1% 0;
+}
+#pageTwo>span>ul>li>figure{
+  width: 80%;
+}
+#leftArrow,#rightArrow,#leftArrowTwo,#rightArrowTwo{
+  width: 43%;
+  height: 35px;
+  display: inline-block;
+  margin: 50% 0;
+  background: url(../images/arrowSprite.png) no-repeat;
+}
+#leftArrow:hover,#rightArrow:hover,#leftArrowTwo:hover,#rightArrowTwo:hover{
+  cursor: pointer;
+  background: url(../images/arrowSpriteHover.png) no-repeat; 
+}
+#rightArrow,#rightArrow:hover,#rightArrowTwo,#rightArrowTwo:hover{
+  
+  background-position: -30px;
+}
+.topTrendList,.topAuthorList{
+  width: 30%;
+  display: inline-block;
+}
+.topTrendList figcaption,.topAuthorList figcaption{
+  color: #0F0;
+  margin: 0.2%;
+}
+.topTrendList h5,.topAuthorList h5{
+  color: aqua;
+}
+.topTrendList:hover,.topAuthorList:hover{
+  cursor: pointer;
+}
+#bookDetails,#authorDetails{
+  display: none;
+  margin: 0 15%;
+  max-height  :240px;
+  overflow-y:  scroll;
+}
+#bookDetails figure,#authorDetails figure{
+  margin: 5%;
+}
+#bookDetails figure,#bookDetails p,#authorDetails figure,#authorDetails p{
+  float: left;
+}
+.rating {
+ color: red;
+}
+#bookDetails h4,#authorDetails h4{
+  margin: 0 20%;
+  color: #0F0;
+  text-transform: uppercase;
+}
+.details{
+  margin: 1% 0 0 0;
+  width: 75%;
+  text-align: justify;
+  color: #960;
+}
+
+#goBack,#goBack2{
+  float: right;
+  color: red;
+  display: none;
+  margin: 0 5% 0 0 ;
+}
+#pageTwo h3,#pageThree h3,#pageFour h3{
+  font-size: 1.6em;
+  font-weight: bold;
+  font-family: verdana;
+  color: #ccc;
+  margin: 0 0 0 1%;
+}
+#pageThree fieldset{
+  margin: 0 3%;
+}
+#pageThree fieldset label{
+  font-size: 1.5em;
+  margin: 0.5% 2%;
+  color: #E58524;
+}
+#searchButton{
+  width: 5%;
+  height: 35px;
+  background-color: aqua;
+  background: transparent;
+  color: #FFFFFF;
+  border-radius: 10%;
+  margin: 0 1%;
+}
+#searchBox{
+  width: 20%;
+  height: 30px;
+
+}
+#searchButton:hover{
+  cursor: pointer;
+  background-color:#E58524;
+  font-weight: bold;
+  color: #000000;
+}
+#mainBook,#simBookDisp{
+  margin: 0 5%;
+  color: #FFFFFF;
+  padding: 1%;
+}
+#mainBook img{
+  margin: 0 50%;
+}
+#mainBook h4,#simBookDisp h4{
+  margin: 0.5%;
+  font-size: 1.5em;
+  color: red;
+  font-weight: bold;
+}
+#mainBook p{
+  margin: 0.5%;
+  font-size: 1em;
+  line-height: 1.5;
+  color: aqua;
+}
+#mainBook h5{
+  color: green;
+}
+#simBookDisp h2{
+  display: inline-block;
+}
+#simBookDisp figure{
+  display: inline-block;
+  width: 10%;
+  margin: 0.5%;
+}
+.remove{
+  margin: 0 1%;
+}
+.similar:hover{
+  cursor: pointer;
+
+}
+#pageFour>img,object{
+      width: 100%;
+      height: auto;
+}
+#pageFour{
+      width: 100%;
+}
+#pageFour figure{
+      width: 16%;
+      /*display: inline-block;*/
+      float: left;
+      margin: 2% 2%;
+      text-align: center;
+}
+#pageFour figure figcaption{
+      font-size: 1em;
+      font-weight: bold;
+      color: #0F0;
+}
+#pageFour figure:hover,#pageFour figure figcaption:hover{
+  cursor: pointer;
+}
+iframe{
+      margin: 0% auto;
+      width: 70%;
+      display: none;
+}
+#image-section{
+      width: 100%;
+      height: auto;
+}
+#image-section figure figcaption{
+  color: #0F0;
+}
+#image-section p{
+  color: #FFF;
+  margin: 0 0 0 1%;
+}
+#login form,#register form{
+  width: 50%;
+  margin: 0 auto;
+  padding: 2%;
+}
+#login form fieldset,#register form fieldset{
+  width: 50%;
+  margin: 1%;
+  color: #55F731;
+}
+#login form fieldset label,#register form fieldset label{
+  width: 30%;
+  margin: 4%;
+  display: inline-block;
+}
+
+#loginButton,#cancelButton,#signUp{
+  width: 20%;
+  margin: 3%;
+}
+footer>img,object{
+      width: 100%;
+      height: auto;
+}
+
+footer{
+      width: 98%;
+      padding: 1% 1%;
+      clear: both;
+      position: fixed;
+      bottom: 0;
+     background-color: #000000;
+}
+
+.follow-us{
+      float: right;
+      vertical-align: middle;
+}
+
+footer p{
+  margin: 2% 2% 0%;
+  display: inline-block;
+  vertical-align: middle;
+  color: brown;
+  font-size: 1em;
+  font-weight: bold;
+}
+#register{
+  display: none;
+  margin: 50px 0 0 0;
+}
+
+#save,#cancel{
+  width: 100px;
+}
+#invalid{
+  display: none;
+  color: red;
+  text-align: center;
+}

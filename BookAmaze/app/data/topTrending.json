@@ -1,0 +1,43 @@
+{
+    "books": [{
+        "title": "Dreams of Gods and Monsters",
+        "author": "Laini Taylor",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1378892134m/13618440.jpg"
+    }, {
+        "title": "The Intern's Handbook: A Thriller",
+        "author": "Shane Kuhn",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1389588616m/18144009.jpg"
+    }, {
+        "title": "Sweet Reckoning",
+        "author": "Wendy Higgins",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1392057405m/1807252.jpg"
+    }, {
+        "title": "To All the Boys I've Loved Before",
+        "author": "Jenny Han",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1372086100m/15749186.jpg"
+    }, {
+        "title": "The First Fifteen Lives of Harry August",
+        "author": " Claire North",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1392314382m/18310561.jpg"
+    }, {
+        "title": "The Storied Life of A. J. Fikry",
+        "author": " Gabrielle Zevin",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1381383609m/18244904.jpg"
+    }, {
+        "title": "Love Letters to the Dead",
+        "author": "Ava Dellaira",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1390036655m/18140047.jpg"
+    }, {
+        "title": "The Secret of the Nagas",
+        "author": "Amish Tripathi",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1308930273m/11827808.jpg"
+    }, {
+        "title": "Year of No Sugar: A Memoir",
+        "author": " Eve O. Schaub",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1392027008m/18601926.jpg"
+    }, {
+        "title": "1984",
+        "author": "George Orwell, Erich Fromm",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1348990566m/5470.jpg"
+    }]
+}

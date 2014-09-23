@@ -1,0 +1,43 @@
+{
+    "books": [{
+        "title": "The Quick Guide to Home Organizing",
+        "author": "Sandra Felton",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1387148412m/18096356.jpg"
+    }, {
+        "title": "Spent: A Memoir",
+        "author": "Antonio Crane",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1372784975m/18114466.jpg"
+    }, {
+        "title": "Taken with You (Kowalski Family #8)",
+        "author": "Shannon Stacey",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1381734918m/18404803.jpg"
+    }, {
+        "title": "Four Friends",
+        "author": "Robin Carr",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1384478273m/18246273.jpg"
+    }, {
+        "title": "Steeped In Evil",
+        "author": "Laura Childs",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1372680717m/18114038.jpg"
+    }, {
+        "title": "The Cairo Affair",
+        "author": "Olen Steinhauer",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1388180207m/17934481.jpg"
+    }, {
+        "title": "Searching for Beautiful",
+        "author": "Nyrae Dawn",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1375074799m/17565070.jpg"
+    }, {
+        "title": "The Winner's Curse (The Winner's Trilogy #1)",
+        "author": "Marie Rutkoski",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1377023523m/16069030.jpg"
+    }, {
+        "title": "Scare Crow (Crow's Row #2)",
+        "author": "Julie Hockley",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1396333403m/16004926.jpg"
+    }, {
+        "title": "Panic",
+        "author": "Lauren Oliver",
+        "src": "https://d202m5krfqbpi5.cloudfront.net/books/1374066076m/17565845.jpg"
+    }]
+}
