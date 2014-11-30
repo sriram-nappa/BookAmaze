@@ -53,8 +53,6 @@ define([
             $('#mainContent').html(this.loginView.el);
         }
     });
-
-
     return AppRouter;
 
 });
