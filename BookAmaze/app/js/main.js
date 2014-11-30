@@ -1,5 +1,6 @@
 'use strict';
 
+
 require(["config"], function() {
     require(['backbone',
             'views/homeView',
